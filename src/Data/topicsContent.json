@@ -1,0 +1,18 @@
+{
+    "history": {
+      "title": "World War 1",
+      "content": "World War 1, also known as the Great War, lasted from 1914 to 1918. It began with the assassination of Archduke Franz Ferdinand of Austria and involved many of the world's great powers. The war was fought between two major alliances: the Allies and the Central Powers. It ended with the signing of the Treaty of Versailles in 1919, which imposed heavy reparations on Germany."
+    },
+    "maths": {
+      "title": "Basic Arithmetic",
+      "content": "Arithmetic is the branch of mathematics dealing with numbers and basic operations such as addition, subtraction, multiplication, and division. It forms the foundation of more advanced mathematical concepts. For example, the sum of 5 and 3 is 8, and the product of 4 and 6 is 24. Arithmetic is essential in everyday life, from calculating expenses to solving problems."
+    },
+    "science": {
+      "title": "The Solar System",
+      "content": "The Solar System consists of the Sun and all the celestial objects that orbit it, including planets, moons, asteroids, and comets. The eight planets are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. Earth is the only planet known to support life. The Sun, a massive star at the center of the Solar System, provides the energy necessary for life on Earth."
+    },
+    "story": {
+      "title": "The Tortoise and the Hare",
+      "content": "The Tortoise and the Hare is a classic fable that teaches the lesson 'slow and steady wins the race.' In the story, a hare mocks a tortoise for being slow and challenges it to a race. Overconfident, the hare takes a nap during the race, while the tortoise steadily moves forward and wins. The story emphasizes the value of perseverance and humility."
+    }
+  }

@@ -1,0 +1,75 @@
+.content{
+    background-color: rgb(214, 228, 223);
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0  20px 20px rgb(118, 102, 102);
+}
+.history{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.button{
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+    height: 50px;
+    background-color: rgb(108, 201, 190);
+}
+.button:hover{
+    background-color: rgb(2, 111, 99);
+    color: white;
+}
+.question{
+    flex-wrap: wrap;
+}
+.optionContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    margin-top: 20px;
+    background-color: azure;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.option:hover{
+    transform: scale(1.06);
+}
+.nextButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    margin-top: 20px;
+    background-color: azure;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
