@@ -1,5 +1,5 @@
 .footer{
-    background-color: aquamarine;
+    background-color: rgb(206, 206, 206);
     padding: 10px;
     border-radius: 20px;
     box-shadow: 0 20px 20px 20px rgb(118, 102, 102);
@@ -7,10 +7,132 @@
     width: 100%;
     /* height: 100%; */
 }
+.footer p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(49, 34, 34);
+    text-align: center;
+    margin-top: 70px;
+}
 .image{
-    height: 150px;
-    width: 150px;
+    margin: 90px;
+    height: 300px;
+    width: 300px;
 }
 .footer-content{
     display: flex;
+    gap: 130px;
+    flex-wrap: wrap;
+}
+.contact{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(226, 222, 222); */
+}
+.formField{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px;
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+}
+.formField table{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #b1afaf;
+    background-color: rgb(215, 214, 214);
+    box-shadow: 0 4px 4px rgb(118, 102, 102);
+}
+.formField label{
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+.formField input{
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #b1afaf;
+    background-color: rgb(215, 214, 214);
+    box-shadow: 0 4px 4px rgb(118, 102, 102);
+}
+.formField input:focus{
+    outline: none;
+    border: 1px solid #b1afaf;
+    box-shadow: 0 4px 4px rgb(118, 102, 102);
+}
+.form-button{
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 10x solid #5e5e5e;
+    background-color: rgb(118, 102, 102);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgb(118, 102, 102);
+}
+.error{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.form-button:hover{
+    background-color: rgb(49, 34, 34);
+    box-shadow: 0 4px 4px rgb(118, 102, 102);
+}
+.form-button:disabled{
+    background-color: rgb(118, 102, 102);
+    cursor: not-allowed;
+}
+
+@media screen and (max-width: 1390px) {
+    .footer-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image{
+        width: 300px;
+        height: 300px;
+    }
+    .formField{
+        width: 100%;
+        max-width: 300px;
+    }
+    .form-button{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 768px){
+    .footer-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image{
+        width: 300px;
+        height: 300px;
+    }
+    .formField{
+        width: 100%;
+        max-width: 300px;
+    }
+    .form-button{
+        width: 300px;
+    }
 }

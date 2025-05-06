@@ -25,12 +25,12 @@ export default function History() {
       setShowScore(true);
     }
   };
-  const handleNext = () => {
-    setShowScore(false);
-    setCurrentQuestion(0);
-    setScore(0);
-    setShowQuiz(false);
-  };
+  // const handleNext = () => {
+  //   setShowScore(false);
+  //   setCurrentQuestion(0);
+  //   setScore(0);
+  //   setShowQuiz(false);
+  // };
   return (
     <div className="history">
       <div className="content">
